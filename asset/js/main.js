@@ -1,16 +1,26 @@
 //numero da 1 a 100
-var numero;
+var i = [];
 
-for (var numero = 1; numero < 101; numero++){
-    console.log(numero);
-}
+for (i = 1; i < 101; i++){
+    //fizzbuzz
+    if (i % 3 == 0 && i % 5 == 0){
+        console.log(fizzbuzz);
 
-//fizz
-var multiplo3 = fizz;
+    //fizz
+    }else if (i % 3 == 0){
+        console.log("fizz");
+    
+    //buzz 
+    }else if(i % 5 ==0){
+        console.log("buzz");
 
-//buzz
-var multiplo5 = buzz;
+    //altrimenti 
+    }else{ 
+        console.log(i);
+    }    
+            
+ }
 
-//fizzBuzz
-var multiplo3_5 = fizzBuzz;
+
+
 
