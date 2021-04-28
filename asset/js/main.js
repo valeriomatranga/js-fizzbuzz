@@ -4,7 +4,7 @@ var i = [];
 for (i = 1; i < 101; i++){
     //fizzbuzz
     if (i % 3 == 0 && i % 5 == 0){
-        console.log(fizzbuzz);
+        console.log("fizzBuzz");
 
     //fizz
     }else if (i % 3 == 0){
